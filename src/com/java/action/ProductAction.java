@@ -6,7 +6,7 @@ import com.java.dao.Product;
 import com.java.dao.ProductDAO;
 
 
-public class ProductAction1 {
+public class ProductAction2 {
 	
 		Product product  = new Product();
 	    List<Product> productList = new ArrayList<Product>();
