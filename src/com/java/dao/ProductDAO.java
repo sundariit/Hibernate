@@ -18,7 +18,7 @@ public class ProductDAO {
 	
 	Transaction trans = session.beginTransaction();
 	
-	public List<Product> getProducts()
+	public List<Product> getProducts();
 	{
 	
 		Criteria cr = session.createCriteria(Product.class);
